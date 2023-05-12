@@ -1689,9 +1689,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildType: 1
-  buildId: 
-  ipAddress: 
-  port: 0
+  buildId: 5316af39-30bb-4a97-b0f4-c9a2b53bf306
+  ipAddress: 40.71.69.145
+  port: 30000
   playFabDebugging: 0
 --- !u!4 &1995558417
 Transform:
