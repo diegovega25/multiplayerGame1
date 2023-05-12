@@ -1688,7 +1688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182fa8fa81926724c943eec381248c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildType: 3
+  buildType: 1
   buildId: 
   ipAddress: 
   port: 0
