@@ -590,6 +590,7 @@ GameObject:
   - component: {fileID: 653613743}
   - component: {fileID: 653613744}
   - component: {fileID: 653613746}
+  - component: {fileID: 653613747}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -651,6 +652,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f84591ce72545258ea98cb7518d8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &653613747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653613742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Port: 7777
+  DualMode: 1
+  NoDelay: 1
+  Interval: 10
+  Timeout: 10000
+  FastResend: 2
+  CongestionWindow: 0
+  SendWindowSize: 4096
+  ReceiveWindowSize: 4096
+  MaxRetransmit: 40
+  NonAlloc: 1
+  MaximizeSendReceiveBuffersToOSLimit: 1
+  ReliableMaxMessageSize: 298449
+  UnreliableMaxMessageSize: 1199
+  debugLog: 0
+  statisticsGUI: 0
+  statisticsLog: 0
 --- !u!1 &690964013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,9 +1718,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182fa8fa81926724c943eec381248c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildType: 0
-  buildId: 5316af39-30bb-4a97-b0f4-c9a2b53bf306
-  ipAddress: 40.71.69.145
+  buildType: 1
+  buildId: ef5cf548-2ed5-4b27-8480-1b6c4b4b80fc
+  ipAddress: 20.172.178.210
   port: 30000
   playFabDebugging: 0
 --- !u!4 &1995558417
