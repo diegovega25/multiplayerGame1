@@ -132,6 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  color: {r: 0.764151, g: 0.19103774, b: 0.19103774, a: 0}
 --- !u!114 &6206701886407108908
 MonoBehaviour:
   m_ObjectHideFlags: 0
